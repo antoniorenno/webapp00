@@ -16,7 +16,7 @@ st.header("Primeiro texto no streamlit! Antonio Rennó")
 st.subheader("Aula para subir site simples")
 
 # Use st.write("") para adicionar um texto ao seu Web app
-st.write("realizando texto para testas as alterações do site")
+st.write("realizando texto para testar as alterações do site")
 
 values = st.slider("Select a range of values", 0.0, 100.0, (5.0, 15.0))
 st.write("Values:", values)
